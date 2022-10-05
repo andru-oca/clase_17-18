@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido User</h1>
+        <h1 id="usuario"></h1>
+        <button id="btnLogout">LOGOUT</button>
+        <ul>
+            <li>ARRAY</li>
+            <li>WEB STORAGE</li>
+            <li>JSON</li>
+            <li>DOM</li>
+        </ul>
+    </header>
+    <main>
+        <div id="array">
+            <h1>Que es un array?</h1>
+            <p> Es JS es un objeto que tiene propiedades particulares de almacenar datos en un orden particularmente listado, donde empieza su cuenta desde  0 , contiene propiedades particulares como longitud, agregado, borrado, slice, shiftting, entre otros</p>
+            <div class="console">
+                let array_nombres = [ 'marcelo','aurora','barden'];
+                <br><br>
+                let array_numeros = [ 1,400,900];
+            </div>
+            <blockquote>
+                Mucho de los arrays tiene una lista enorme de metodos, pero los más importantes son push, pop, shift, forEach, map, filter, sort entre otros.
+            </blockquote>
+            <div class="console" id="result">
+
+            </div>
+        </div>
+        <div id="web_storage">
+        </div>
+        <h1 align = "center">USUARIOS INJECTADOS Y RENDERIZADOS USANDO VANILLA JS </h1>
+        <div id="json">
+            <div id="json-web">
+            </div>
+        </div>
+
+
+        <div id="dom">
+            <h1>VALIDACION DE UN FORM </h1>
+            <a href="https://www.freecodecamp.org/espanol/news/validacion-basica-de-formularios-en-javascript/"> LINK SOBRE VALIDACION DE DOM</a>
+        </div>
+
+        <div id="form">
+            <form id="formulario">
+                <table cellspacing="2" cellpadding="2" border="1">
+                  <tr>
+                    <td align="right">Nombre de Usuario</td>
+                    <td><input type="text" id="usuario" /></td>
+                  </tr>
+                  <tr>
+                    <td align="right">Email</td>
+                    <td><input type="text" id="email" /></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><input type="submit" value="ENVIAR" id="btn-enviar" /></td>
+                  </tr>
+                </table>
+              </form>
+        </div>
+
+    </main>
+    <footer></footer>
+
+<script src="js/index.js" defer></script>
+</body>
+</html>
